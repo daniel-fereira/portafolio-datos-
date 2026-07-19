@@ -20,8 +20,7 @@
 
 Aquí puedes ver los gráficos principales del análisis:
 
-![Resumen de Mercado](ResumenMercado.png)
-![Distribución Geográfica](DistribucionGeografica.png)
+![Resumen de Mercado](ResumenMercado.png.jpeg)
 
 ## Dashboard Interactivo
 Puedes explorar el informe completo aquí:
