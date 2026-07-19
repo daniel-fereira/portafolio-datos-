@@ -1,13 +1,20 @@
 # Customer Shopping Data
 
-Análisis del comportamiento de compra de clientes.
+Análisis integral del comportamiento de compra y rendimiento comercial.
 
-## Tecnologías utilizadas
-* SQL
-* Looker Studio
+## 📊 Descripción del Proyecto
+Este proyecto analiza un conjunto de datos de compras para identificar patrones clave, permitiendo una mejor toma de decisiones estratégicas.
 
-## Descripción
-En este proyecto realicé el análisis comercial de datos de compras para identificar patrones y tendencias de consumo.
+## 📈 Análisis Realizado
+* **Resumen General**: Métricas clave como el total de clientes, facturación total, AOV y tamaño promedio de cesta.
+* **Segmentación por Género**: Análisis comparativo de facturación y tendencias de consumo.
+* **Análisis de Categorías**: Identificación de las categorías con mayor impacto en la facturación.
+* **Distribución por Métodos de Pago**: Preferencias de pago de los clientes.
 
-## Dashboard
-Puedes ver el reporte interactivo aquí: [Enlace a tu reporte de Looker Studio]
+## 🛠 Tecnologías
+* **SQL**: Limpieza y preparación de datos.
+* **Looker Studio**: Visualización interactiva.
+
+## 🔗 Dashboard Interactivo
+Puedes explorar el informe completo aquí:
+[**Haz clic para ver el Dashboard en Looker Studio**](https://datastudio.google.com/reporting/71bd53b8-df81-4a50-8302-35ca38ad6d50)
