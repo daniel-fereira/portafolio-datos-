@@ -2,10 +2,10 @@
 
 Análisis integral del comportamiento de compra y rendimiento comercial.
 
-## 📊 Descripción del Proyecto
+##  Descripción del Proyecto
 Este proyecto analiza un conjunto de datos de compras para identificar patrones clave, permitiendo una mejor toma de decisiones estratégicas.
 
-## 📈 Análisis Realizado
+## Análisis Realizado
 * **Resumen General**: Métricas clave como el total de clientes, facturación total, AOV y tamaño promedio de cesta.
 * **Segmentación por Género**: Análisis comparativo de facturación y tendencias de consumo.
 * **Análisis de Categorías**: Identificación de las categorías con mayor impacto en la facturación.
