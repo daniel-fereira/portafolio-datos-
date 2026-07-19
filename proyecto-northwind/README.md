@@ -30,5 +30,5 @@ Aquí puedes ver los gráficos principales del análisis de ventas:
 
 ## Dashboard Interactivo
 Puedes explorar el informe completo aquí:
-[Haz clic aquí para ver el Dashboard](Aquí-pega-tu-link-de-Looker-Studio-para-Northwind)
+[Haz clic aquí para ver el Dashboard](https://docs.google.com/spreadsheets/d/1a4dIC4RxAN7iO2D2VaHDNrLl6yyRPOiSCpnVKXzR8mA/edit?usp=sharing)
 
