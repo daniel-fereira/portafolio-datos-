@@ -5,7 +5,6 @@ Cantidad de Pedidos
 
 
 
-
 SELECT
 SUM(quantity * list_price) AS groos_bookings,
 SUM(quantity * list_price * discount) AS discount,
@@ -14,10 +13,6 @@ COUNT(DISTINCT order_id) AS Order_acount
 
 
 FROM `Bike_Shop.order_items`
-
-
-
-
 
 
 
