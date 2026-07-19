@@ -20,3 +20,11 @@ Tendencia de Crecimiento: Se observa un crecimiento sólido en la facturación e
 Estacionalidad: El análisis mensual de 1997 revela una tendencia ascendente hacia finales de año, alcanzando picos en octubre y diciembre, lo cual es vital para la planificación de inventarios y logística.
 
 Comportamiento por Categoría: Al comparar categorías como 'Bebidas' y 'Confites', logramos identificar qué productos tienen mayor rotación y cuáles presentan comportamientos más estables durante el año.
+
+## Visualizaciones del Reporte
+
+Aquí puedes ver los gráficos principales del análisis de ventas:
+
+![Gráficos Generales](northwindgraficos.png)
+![Detalle de Facturación](northwind.png.jpeg).
+
