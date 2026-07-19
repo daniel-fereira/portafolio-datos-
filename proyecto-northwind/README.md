@@ -28,3 +28,7 @@ Aquí puedes ver los gráficos principales del análisis de ventas:
 ![Gráficos Generales](northwindgraficos.png)
 ![Detalle de Facturación](northwind.png.jpeg).
 
+## Dashboard Interactivo
+Puedes explorar el informe completo aquí:
+[Haz clic aquí para ver el Dashboard](Aquí-pega-tu-link-de-Looker-Studio-para-Northwind)
+
