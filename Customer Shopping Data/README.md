@@ -19,7 +19,6 @@ Principales Hallazgos (Insights):
 Aquí puedes ver los gráficos principales del análisis:
 
 ![Resumen General](ResumenGeneral.jpeg)
-![Análisis de Clientes](Clientes.jpeg)
 
 ## Dashboard Interactivo
 Puedes explorar el informe completo aquí:
