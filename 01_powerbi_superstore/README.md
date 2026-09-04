@@ -26,7 +26,7 @@ Analizar el rendimiento comercial, la rentabilidad y el volumen de pedidos de la
 ##  Vista Previa del Dashboard
 
 ### 1. Sales Overview
-![Sales Overview](docs/sales_overview.png)
+![Sales Overview](Super_ Store1.png)
 
 ### 2. Product Details
 ![Product Details](docs/product_details.png)
