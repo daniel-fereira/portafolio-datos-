@@ -1,2 +1,2 @@
 # portafolio-datos-
-Portafolio de análisis de datos: dashboards en Looker Studio, datasets en Google Sheets y consultas SQL ejecutadas en BigQuery
+Portafolio de Análisis de Datos: Dashboards interactivos en Power BI y Looker Studio, modelado de datos en Excel y Google Sheets, y consultas avanzadas con SQL en BigQuery.
