@@ -1,11 +1,11 @@
-# 📊 Sales Overview - SuperStore - Power BI
+# Sales Overview - SuperStore - Power BI
 
-## 🎯 Objetivo del Proyecto
+## Objetivo del Proyecto
 Analizar el rendimiento comercial, la rentabilidad y el volumen de pedidos de la empresa **Superstore** (2011–2014) mediante un flujo de trabajo completo de datos (*End-to-End*): desde la preparación inicial en Excel y el análisis exploratorio con SQL (BigQuery), hasta la creación de un dashboard interactivo en Power BI.
 
 ---
 
-## 🔄 Flujo de Trabajo y Tratamiento de Datos
+## Flujo de Trabajo y Tratamiento de Datos
 
 ### 1. Limpieza Exploratoria Inicial (Excel)
 * Inspección del dataset original (*Superstore Dataset*).
@@ -23,7 +23,7 @@ Analizar el rendimiento comercial, la rentabilidad y el volumen de pedidos de la
 
 ---
 
-## 📸 Vista Previa del Dashboard
+##  Vista Previa del Dashboard
 
 ### 1. Sales Overview
 ![Sales Overview](docs/sales_overview.png)
@@ -33,25 +33,25 @@ Analizar el rendimiento comercial, la rentabilidad y el volumen de pedidos de la
 
 ---
 
-## 🔑 KPIs Principales y Funcionalidades
+## KPIs Principales y Funcionalidades
 * **Métricas Clave:** Seguimiento de `Total Orders` (51.29K), `Total Sales` ($12.64M), `Profit Margin %` (11.62%) y `Total Profit` ($1.47M).
 * **Análisis YoY:** Indicador dinámico de variaciones interanuales (`Sales YoY Growth %` de 51.54%).
 * **Filtros Dinámicos:** Segmentación interactiva por tipo de cliente (**Segment**) y línea temporal (**Year** 2011–2014).
 
 ---
 
-## 🔗 Dashboard Interactivo
-👉 [Ver Sales Overview - SuperStore en Power BI Service](https://app.powerbi.com/reportEmbed?reportId=7d4fc7fd-0af8-4e35-94ac-e0f443a5f976&autoAuth=true&ctid=44186e7d-49dd-4615-b523-00a197f81e90)
+##  Dashboard Interactivo
+ [Ver Sales Overview - SuperStore en Power BI Service](https://app.powerbi.com/reportEmbed?reportId=7d4fc7fd-0af8-4e35-94ac-e0f443a5f976&autoAuth=true&ctid=44186e7d-49dd-4615-b523-00a197f81e90)
 
 ---
 
-## 🛠️ Tecnologías y Herramientas
+##  Tecnologías y Herramientas
 * **Excel:** Limpieza y estandarización de fechas.
 * **SQL (BigQuery):** Análisis exploratorio de agregaciones, márgenes y pérdidas.
 * **Power BI Desktop & Power Query:** Modelado de datos, medidas DAX e interfaz gráfica.
 
 ---
 
-## 📂 Archivos en esta carpeta
+##  Archivos en esta carpeta
 * `Superstore_Sales.pbix` - Archivo fuente del informe de Power BI.
 * `dataset_superstore.xlsx` - Dataset utilizado para el análisis.
