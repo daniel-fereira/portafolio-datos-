@@ -23,14 +23,13 @@ Analizar el rendimiento comercial, la rentabilidad y el volumen de pedidos de la
 
 ---
 
-##  Vista Previa del Dashboard
+## 📸 Vista Previa del Dashboard
 
 ### 1. Sales Overview
-![Sales Overview](Super_ Store1.png)
+![Sales Overview](Super_%20Store1.png)
 
 ### 2. Product Details
-![Product Details](docs/product_details.png)
-
+![Product Details](Super_Store2.png)
 ---
 
 ## KPIs Principales y Funcionalidades
