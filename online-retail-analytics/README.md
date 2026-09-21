@@ -15,24 +15,55 @@ Este proyecto aborda el ciclo completo de procesamiento analítico del **Online 
 
 ---
 
-## 🛠️ Stack Tecnológico
+## 🔍 Fases del Proyecto
 
-* **Excel:** Auditoría inicial, validación de tipos de datos, inspección de valores nulos y formatos.
-* **Base de Datos & SQL:** PostgreSQL (pgAdmin 4) — Uso avanzado de CTEs, Window Functions (`NTILE`, `ROW_NUMBER`), casting de fechas y agregaciones.
-* **Visualización & BI:** Power BI Desktop — Modelado relacional, DAX y tableros interactivos.
-* **Control de Versiones:** Git & GitHub
+### 1. Auditoría & Data Hygiene (Excel)
+* **Diagnóstico Estructural:** Identificación de registros duplicados, valores nulos en IDs de clientes y precios/cantidades en negativo.
+* **Estandarización:** Corrección y formato de fechas, limpieza de espacios en blanco.
+
+### 2. Transformación y Análisis Exploratorio (SQL en PostgreSQL)
+* **Validación de Integridad:** Detección de nulos, eliminación de cancelaciones y verificación de registros duplicados.
+* **Análisis de Negocio:** Consultas exploratorias para calcular agregaciones clave (ventas por país, ticket promedio) antes de construir las visualizaciones.
+* **Modelo RFM:** Cálculo de puntuaciones comportamentales mediante `NTILE(4)` y `WINDOW FUNCTIONS` para segmentar clientes en *Champions*, *Loyal*, *Needs Attention* y *At Risk*.
+
+### 3. Modelado y Visualización (Power BI)
+* **Importación:** Carga de datos validados desde PostgreSQL a Power BI Desktop.
+* **Desarrollo DAX:** Creación de medidas analíticas mediante `CALCULATE`, `DISTINCTCOUNT`, `SUMX` y funciones avanzadas.
+* **Diseño UI/UX:** Interfaz ejecutiva en estilo Matte Theme con indicadores condicionales y distribución simétrica.
 
 ---
 
-## 🏗️ Flujo de Trabajo y Arquitectura del Proyecto
+## 📸 Vista Previa del Dashboard
 
-```text
-📁 online-retail-analytics/
- ├── 📁 excel/
- │   └── online_retail_audited.xlsx   # Fase 0: Auditoría inicial y correcciones
- ├── 📁 sql/
- │   ├── 01_clean_layer.sql           # Fase 1: Limpieza, deduplicación y filtros en PostgreSQL
- │   ├── 02_business_layer.sql        # Fase 2: KPIs globales, análisis geográfico y SKUs
- │   └── 03_analytics_layer.sql       # Fase 3: Modelo de segmentación de clientes RFM
- └── 📁 powerbi/
-     └── online_retail_dashboard.pbix # Informe interactivo con KPIs y Segmentación RFM
+### 1. Customer RFM Analytics
+![Customer RFM Analytics](./Power%20BI/online%20retail.png)
+
+---
+
+## 📊 KPIs Principales y Funcionalidades
+
+* **Métricas Clave:** Seguimiento de **Total Revenue**, **Active Customers**, **Total Orders** y **Customer Segments**.
+* **Segmentación Dinámica RFM:** Desglose interactivo de clientes según comportamiento de compra (*Champions*, *Loyal*, *Needs Attention*, *At Risk*).
+* **Filtros Dinámicos:** Filtros cruzados por país (**Sales by Country**) y período de tiempo (**Year & Month**).
+
+---
+
+## 🌐 Dashboard Interactivo
+
+🔗 [**Ver Online Retail Analytics en Power BI Service**](https://app.powerbi.com/links/l0w3P9AiGJ?ctid=44186e7d-49dd-4615-b523-00a197f81e90&pbi_source=linkShare)
+
+---
+
+## 🛠️ Tecnologías y Herramientas
+
+* **Excel:** Limpieza y estandarización inicial de datos.
+* **SQL (PostgreSQL):** Análisis exploratorio, filtrado transaccional y modelo de segmentación RFM.
+* **Power BI Desktop & Power Query:** Modelado de datos, medidas DAX e interfaz gráfica.
+* **Git & GitHub:** Control de versiones y documentación de repositorio.
+
+---
+
+## 📁 Archivos en esta carpeta
+
+* **`online_retail_dashboard.pbix`** - Archivo fuente del informe de Power BI.
+* **`online_retail_audited.xlsx`** - Dataset auditado utilizado para el análisis.
