@@ -29,10 +29,10 @@ Este proyecto aborda el ciclo completo de procesamiento analítico del **Online 
 ```text
 📁 online-retail-analytics/
  ├── 📁 excel/
- │    └── online_retail_audited.xlsx   # Fase 0: Auditoría inicial y correcciones
+ │   └── online_retail_audited.xlsx   # Fase 0: Auditoría inicial y correcciones
  ├── 📁 sql/
- │    ├── 01_clean_layer.sql           # Fase 1: Limpieza, deduplicación y filtros en PostgreSQL
- │    ├── 02_business_layer.sql        # Fase 2: KPIs globales, análisis geográfico y SKUs
- │    └── 03_analytics_layer.sql       # Fase 3: Modelo de segmentación de clientes RFM
+ │   ├── 01_clean_layer.sql           # Fase 1: Limpieza, deduplicación y filtros en PostgreSQL
+ │   ├── 02_business_layer.sql        # Fase 2: KPIs globales, análisis geográfico y SKUs
+ │   └── 03_analytics_layer.sql       # Fase 3: Modelo de segmentación de clientes RFM
  └── 📁 powerbi/
-      └── online_retail_dashboard.pbix # Informe interactivo con KPIs y Segmentación RFM
+     └── online_retail_dashboard.pbix # Informe interactivo con KPIs y Segmentación RFM
